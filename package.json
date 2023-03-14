@@ -1,0 +1,14 @@
+{
+  "name": "kindle-creator",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx tsc create-dictionary.ts --outDir dist",
+    "start": "node dist/create-dictionary.js"
+  },
+  "dependencies": {
+    "@types/node": "^18.15.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
